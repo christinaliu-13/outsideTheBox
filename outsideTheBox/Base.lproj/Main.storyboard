@@ -338,6 +338,11 @@
                         <viewLayoutGuide key="safeArea" id="EfZ-QI-qdC"/>
                     </view>
                     <navigationItem key="navigationItem" id="GxN-eq-zqe"/>
+                    <connections>
+                        <outlet property="definitionLabel" destination="7e3-r6-eE8" id="SG8-1K-O5h"/>
+                        <outlet property="sentenceLabel" destination="3OQ-iU-ppe" id="tm1-jX-E4X"/>
+                        <outlet property="wordLabel" destination="M0A-3k-6N5" id="UiU-Wl-Kxh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yia-L4-ZaJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
