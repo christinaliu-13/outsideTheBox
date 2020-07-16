@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291180E124BFD609004ECBA2 /* dictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291180E024BFD609004ECBA2 /* dictionaryViewController.swift */; };
 		843BC90A24BE5DBA007D36ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BC90924BE5DBA007D36ED /* AppDelegate.swift */; };
 		843BC90C24BE5DBA007D36ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BC90B24BE5DBA007D36ED /* SceneDelegate.swift */; };
 		843BC90E24BE5DBA007D36ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BC90D24BE5DBA007D36ED /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		291180E024BFD609004ECBA2 /* dictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionaryViewController.swift; sourceTree = "<group>"; };
 		843BC90624BE5DBA007D36ED /* outsideTheBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = outsideTheBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		843BC90924BE5DBA007D36ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		843BC90B24BE5DBA007D36ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		843BC8FD24BE5DB8007D36ED = {
 			isa = PBXGroup;
 			children = (
+				291180E024BFD609004ECBA2 /* dictionaryViewController.swift */,
 				843BC90824BE5DBA007D36ED /* outsideTheBox */,
 				843BC92224BE5DCD007D36ED /* outsideTheBoxTests */,
 				843BC92D24BE5DCD007D36ED /* outsideTheBoxUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				843BC90E24BE5DBA007D36ED /* ViewController.swift in Sources */,
 				843BC91424BE5DBA007D36ED /* outsideTheBox.xcdatamodeld in Sources */,
+				291180E124BFD609004ECBA2 /* dictionaryViewController.swift in Sources */,
 				843BC90A24BE5DBA007D36ED /* AppDelegate.swift in Sources */,
 				843BC90C24BE5DBA007D36ED /* SceneDelegate.swift in Sources */,
 			);
