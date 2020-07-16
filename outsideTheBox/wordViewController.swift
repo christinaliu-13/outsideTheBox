@@ -24,6 +24,7 @@ class wordViewController: UIViewController {
         let word = ["agender", "gay"]
         let definitions = ["Someone who identifies as not having any gender, regardless of physical appearances or traits.", "orange"]
         let sentence = ["In high school, Kate identified as 'agender' and used the singular pronoun 'they' instead of he or she.", "She is a gay orange."]
+        
         let index = Int.random(in: 1...3)
         wordLabel.text = word[index]
         definitionLabel.text = definitions[index]
