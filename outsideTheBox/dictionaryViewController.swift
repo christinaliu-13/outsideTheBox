@@ -11,12 +11,12 @@ import UIKit
 class dictionaryViewController: UIViewController {
 
     @IBOutlet weak var bixsexualLabel: UILabel!
+    @IBOutlet weak var allyLabel: UILabel!
+    @IBOutlet weak var ableism: UILabel!
+    @IBOutlet weak var addLabel: UILabel!
+    @IBOutlet weak var anxietyLabel: UILabel!
+    @IBOutlet weak var depressionLabel: UILabel!
     
-    @IBOutlet weak var allyLabel: UIButton!
-    @IBOutlet weak var ableismLabel: UIButton!
-    @IBOutlet weak var addLabel: UIButton! //attention deficit disorder
-    @IBOutlet weak var anxietyLabel: UIButton!
-    @IBOutlet weak var depressionLabel: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,26 +30,25 @@ class dictionaryViewController: UIViewController {
     }
     
     @IBAction func allyButtTap(_ sender: UIButton) {
-        //"a person who is sexually attracted not exclusively to people of one particular gender; attracted to both men and women."
+        allyLabel.text = "a person who supports often discriminated or underepresented groups."
     }
     
     
     @IBAction func ableismButtTap(_ sender: UIButton) {
-        // "a person who is sexually attracted not exclusively to people of one particular gender; attracted to both men and women."
+        ableism.text = "discrimination and social prejudice against people with disabilities or who are perceived to have disabilities. Ableism characterizes persons as defined by their disabilities and as inferior to the non-disabled."
     }
     
     @IBAction func addButtTap(_ sender: UIButton) {
-         //addLabel.text = "a person who is sexually attracted not exclusively to people of one particular gender; attracted to both men and women."
+         addLabel.text = "a severe difficulty in focusing and maintaining attention. Often leads to learning and behavior problems at home, school, and work. Also called Attention Deficit Hyperactivity Disorder (ADHD)."
         
     }
     
-    
     @IBAction func anxietyButtTap(_ sender: UIButton) {
-         //bixsexualLabel.text = "a person who is sexually attracted not exclusively to people of one particular gender; attracted to both men and women."
+         anxietyLabel.text = "a mental health disorder characterized by feelings of worry, anxiety, or fear that are strong enough to interfere with one's daily activities."
     }
     
     @IBAction func depressionButtTap(_ sender: UIButton) {
-        // bixsexualLabel.text = "a person who is sexually attracted not exclusively to people of one particular gender; attracted to both men and women."
+        depressionLabel.text = "a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Depression causes feelings of sadness and/or a loss of interest in activities once enjoyed. It can lead to a variety of emotional and physical problems and can decrease a person’s ability to function at work and at home."
     }
 
 }//end of Class
