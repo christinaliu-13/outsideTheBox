@@ -31,10 +31,10 @@
             </objects>
             <point key="canvasLocation" x="-800.00000000000011" y="-35.491071428571423"/>
         </scene>
-        <!--View Controller-->
+        <!--Dictionary View Controller-->
         <scene sceneID="bZY-xc-BKt">
             <objects>
-                <viewController id="gbx-w1-9hN" sceneMemberID="viewController">
+                <viewController id="gbx-w1-9hN" customClass="dictionaryViewController" customModule="outsideTheBox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fN4-NG-pnH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
