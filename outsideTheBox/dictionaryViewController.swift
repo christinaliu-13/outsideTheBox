@@ -35,11 +35,11 @@ class dictionaryViewController: UIViewController {
     
     
     @IBAction func ableismButtTap(_ sender: UIButton) {
-        ableism.text = "discrimination and social prejudice against people with disabilities or who are perceived to have disabilities. Ableism characterizes persons as defined by their disabilities and as inferior to the non-disabled."
+        ableism.text = "discrimination and social prejudice against people with disabilities or who are perceived to have disabilities ; characterizes persons as defined by their disabilities and as inferior to the non-disabled."
     }
     
     @IBAction func addButtTap(_ sender: UIButton) {
-         addLabel.text = "a severe difficulty in focusing and maintaining attention. Often leads to learning and behavior problems at home, school, and work. Also called Attention Deficit Hyperactivity Disorder (ADHD)."
+         addLabel.text = "a severe difficulty in focusing and maintaining attention; often leads to learning and behavior problems at home, school, and work ; also called Attention Deficit Hyperactivity Disorder (ADHD)."
         
     }
     
@@ -48,7 +48,7 @@ class dictionaryViewController: UIViewController {
     }
     
     @IBAction func depressionButtTap(_ sender: UIButton) {
-        depressionLabel.text = "a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Depression causes feelings of sadness and/or a loss of interest in activities once enjoyed. It can lead to a variety of emotional and physical problems and can decrease a person’s ability to function at work and at home."
+        depressionLabel.text = "a common and serious medical illness that negatively affects how you feel, the way you think and how you act ; causes feelings of sadness and/or a loss of interest in activities once enjoyed ; can lead to a variety of emotional and physical problems and can decrease a person’s ability to function at work and at home."
     }
 
 }//end of Class
