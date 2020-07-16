@@ -17,6 +17,8 @@
 		843BC91924BE5DCC007D36ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843BC91724BE5DCC007D36ED /* LaunchScreen.storyboard */; };
 		843BC92424BE5DCD007D36ED /* outsideTheBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BC92324BE5DCD007D36ED /* outsideTheBoxTests.swift */; };
 		843BC92F24BE5DCD007D36ED /* outsideTheBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843BC92E24BE5DCD007D36ED /* outsideTheBoxUITests.swift */; };
+		84794D2D24C0261D00B4CEC4 /* wordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84794D2C24C0261C00B4CEC4 /* wordViewController.swift */; };
+		84794D2F24C0263400B4CEC4 /* storyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84794D2E24C0263400B4CEC4 /* storyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		843BC92A24BE5DCD007D36ED /* outsideTheBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = outsideTheBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843BC92E24BE5DCD007D36ED /* outsideTheBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = outsideTheBoxUITests.swift; sourceTree = "<group>"; };
 		843BC93024BE5DCD007D36ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84794D2C24C0261C00B4CEC4 /* wordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wordViewController.swift; sourceTree = "<group>"; };
+		84794D2E24C0263400B4CEC4 /* storyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +87,6 @@
 		843BC8FD24BE5DB8007D36ED = {
 			isa = PBXGroup;
 			children = (
-				291180E024BFD609004ECBA2 /* dictionaryViewController.swift */,
 				843BC90824BE5DBA007D36ED /* outsideTheBox */,
 				843BC92224BE5DCD007D36ED /* outsideTheBoxTests */,
 				843BC92D24BE5DCD007D36ED /* outsideTheBoxUITests */,
@@ -108,6 +111,9 @@
 				843BC90B24BE5DBA007D36ED /* SceneDelegate.swift */,
 				843BC90D24BE5DBA007D36ED /* ViewController.swift */,
 				843BC90F24BE5DBA007D36ED /* Main.storyboard */,
+				84794D2C24C0261C00B4CEC4 /* wordViewController.swift */,
+				291180E024BFD609004ECBA2 /* dictionaryViewController.swift */,
+				84794D2E24C0263400B4CEC4 /* storyViewController.swift */,
 				843BC91524BE5DCB007D36ED /* Assets.xcassets */,
 				843BC91724BE5DCC007D36ED /* LaunchScreen.storyboard */,
 				843BC91A24BE5DCC007D36ED /* Info.plist */,
@@ -267,8 +273,10 @@
 			files = (
 				843BC90E24BE5DBA007D36ED /* ViewController.swift in Sources */,
 				843BC91424BE5DBA007D36ED /* outsideTheBox.xcdatamodeld in Sources */,
+				84794D2D24C0261D00B4CEC4 /* wordViewController.swift in Sources */,
 				291180E124BFD609004ECBA2 /* dictionaryViewController.swift in Sources */,
 				843BC90A24BE5DBA007D36ED /* AppDelegate.swift in Sources */,
+				84794D2F24C0263400B4CEC4 /* storyViewController.swift in Sources */,
 				843BC90C24BE5DBA007D36ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
