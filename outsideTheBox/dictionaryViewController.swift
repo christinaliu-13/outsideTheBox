@@ -10,7 +10,7 @@ import UIKit
 
 class dictionaryViewController: UIViewController {
 
-    @IBOutlet weak var bixsexualLabel: UILabel!
+    @IBOutlet weak var bisexualLabel: UILabel!
     @IBOutlet weak var allyLabel: UILabel!
     @IBOutlet weak var ableism: UILabel!
     @IBOutlet weak var addLabel: UILabel!
@@ -24,9 +24,13 @@ class dictionaryViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    //func createDictWords() -> [Matches/words] {
+    //let matchONe = Matches()
+    //wordONe.name = "sdfasdas" etc etc
+//}
+    
     @IBAction func bisexualButtTap(_ sender: UIButton) {
-        bixsexualLabel.text = "a person who is sexually attracted not exclusively to people of one particular gender; attracted to both men and women."
+        bisexualLabel.text = "a person who is sexually attracted not exclusively to people of one particular gender; attracted to both men and women." //bisexualLabel.text = wordOne.name
     }
     
     @IBAction func allyButtTap(_ sender: UIButton) {

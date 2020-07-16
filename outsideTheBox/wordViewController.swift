@@ -20,15 +20,16 @@ class wordViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func random(){
-        let word = ["agender", "gay"]
-        let definitions = ["Someone who identifies as not having any gender, regardless of physical appearances or traits.", "orange"]
-        let sentence = ["In high school, Kate identified as 'agender' and used the singular pronoun 'they' instead of he or she.", "She is a gay orange."]
+    func random() {
+        var word = ["agender", "gay"]
+        var definitions = ["Someone who identifies as not having any gender, regardless of physical appearances or traits.", "orange"]
+        var sentence = ["In high school, Kate identified as 'agender' and used the singular pronoun 'they' instead of he or she.", "She is a gay orange."]
         
-        let index = Int.random(in: 1...3)
+        var index = Int.random(in: 1...2)
         wordLabel.text = word[index]
         definitionLabel.text = definitions[index]
         sentenceLabel.text = sentence[index]
+        //print(wordLabel.text)
     }
 
     

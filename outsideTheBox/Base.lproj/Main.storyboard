@@ -109,6 +109,7 @@
                                 </state>
                                 <connections>
                                     <action selector="bisexualButtTap:" destination="gbx-w1-9hN" eventType="touchUpInside" id="hyU-7B-SzZ"/>
+                                    <segue destination="Zpu-ST-mgj" kind="show" id="n0e-7t-mNd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eub-YS-Ng7">
@@ -271,6 +272,7 @@
                                 </state>
                                 <connections>
                                     <action selector="allyButtTap:" destination="gbx-w1-9hN" eventType="touchUpInside" id="T5U-c1-xzv"/>
+                                    <segue destination="Zpu-ST-mgj" kind="show" id="xH9-wo-i5y"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="My Dictionary" borderStyle="roundedRect" textAlignment="center" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iZH-0B-eJb">
@@ -303,15 +305,28 @@
             <objects>
                 <viewController id="Zpu-ST-mgj" customClass="wordInformationViewController" customModule="outsideTheBox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CKh-5L-xmX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" test" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BpN-7B-G3m">
+                                <rect key="frame" x="89" y="127" width="269" height="266"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="eEN-jw-P7C"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eVI-h1-hi7"/>
+                    <connections>
+                        <outlet property="definitionLabel" destination="BpN-7B-G3m" id="Qjs-ev-DHJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ooz-rz-bHt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="645" y="-13"/>
+            <point key="canvasLocation" x="727.536231884058" y="-35.491071428571423"/>
         </scene>
         <!--Word View Controller-->
         <scene sceneID="eys-GQ-3sD">
@@ -453,6 +468,9 @@
             <point key="canvasLocation" x="-888" y="659"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="n0e-7t-mNd"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.033803558769999999" blue="0.50265139250000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="71pUT1uiPLL._AC_SX425_" width="425" height="425"/>
