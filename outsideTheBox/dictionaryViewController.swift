@@ -33,14 +33,12 @@ class dictionaryViewController: UIViewController {
         allyLabel.text = "a person who supports often discriminated or underepresented groups."
     }
     
-    
     @IBAction func ableismButtTap(_ sender: UIButton) {
         ableism.text = "discrimination and social prejudice against people with disabilities or who are perceived to have disabilities ; characterizes persons as defined by their disabilities and as inferior to the non-disabled."
     }
     
     @IBAction func addButtTap(_ sender: UIButton) {
          addLabel.text = "a severe difficulty in focusing and maintaining attention; often leads to learning and behavior problems at home, school, and work ; also called Attention Deficit Hyperactivity Disorder (ADHD)."
-        
     }
     
     @IBAction func anxietyButtTap(_ sender: UIButton) {
