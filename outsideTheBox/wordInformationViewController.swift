@@ -11,7 +11,7 @@ import UIKit
 class wordInformationViewController: UIViewController {
 
     @IBOutlet weak var definitionLabel: UILabel!
-    var previousVC = dictionaryViewController()
+    //var previousVC = dictionaryViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
